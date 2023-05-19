@@ -1,0 +1,16 @@
+<meta>
+    <info gamemodes="false" />
+    <script src="server.lua" type="server" />
+    <script src="client.lua" type="client" />
+    <exports />
+    <settings>
+        <setting name="allow-download-files" value="false" />
+    </settings>
+    <acl>
+        <group name="founder">
+            <object name="command.cekilisolustur" access="true" />
+            <object name="command.katilanlar" access="true" />
+            <object name="command.cekilissonucu" access="true" />
+        </group>
+    </acl>
+</meta>
